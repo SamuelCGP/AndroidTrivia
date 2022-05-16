@@ -22,6 +22,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 
+/*
+* A criação de uma View se parece muito com o processo de criar uma rota web
+* Aqui, Views são classes que no "método construtor" retornam um layout xml
+* */
 class AboutFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
